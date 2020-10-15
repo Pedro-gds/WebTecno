@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>TecnoGame Los DosBros</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>	
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">TecnoGame Los DosBros</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio
+                              <span class="sr-only">(current)</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Mi ubicacion</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div><br><br>
+        <div class="row">
+            <div class="col">
+                <div id="map" class="map map-home" style="margin:12px 0 12px 0;height:400px;"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <a href="#"><img class="card-img-top" src="https://as.com/meristation/imagenes/2020/09/12/noticias/1599917940_904614_1599918024_noticia_normal.jpg" alt=""></a>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#">PlayStation 5</a>
+                    </h4>
+                    <h5>$18,000</h5>
+                    <p class="card-text">PS5 DISPONIBLE.
+                      ↓↓↓↓↓↓↓↓ COMPRALO AHORA 
+                    </p>
+                    <h6>¡COMPRA TU PS5 AHORA!</h6>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+               <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="GWY2K77D4AY36">
+              <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+              <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="200" height="200">
+             </form>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <a href="#"><img class="card-img-top" src="https://i.blogs.es/d2a441/xboxonex/450_1000.jpg" alt=""></a>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#">Xbox One</a>
+                    </h4>
+                    <h5>$8,000</h5>
+                    <p class="card-text">AGOTADO</p>
+                    <h6>¡COMPRA TU XBOX ONE AHORA!</h6>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+               <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="GWY2K77D4AY36">
+              <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+              <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="200" height="200">
+             </form>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="https://www.alfabetajuega.com/wp-content/uploads/2020/08/maxresdefault-10-5-e1594310543591.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Nintendo switch</a>
+                  </h4>
+                  <h5>$7,500</h5>
+                  <p class="card-text">AGOTADO</p>
+                  <h6>¡COMPRA TU NINTENDO SWITCH AHORA!</h6>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+               <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="GWY2K77D4AY36">
+              <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+              <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="200" height="200">
+             </form>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+          </div>
+        </div>
+       
+    
+      
+     
+
+</div>
+<!-- /.row -->
+
+</div>
+<!-- /.col-lg-9 -->
+
+</div>
+<!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+<div class="container">
+<p class="m-0 text-center text-white">TecnoGame Los DosBros</p>
+</div>
+<!-- /.container -->
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
