@@ -11,32 +11,24 @@
 <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
 </head>
 <body>
-     <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '375953700121182',
-      cookie     : true,
-      xfbml      : true,
-      version    : 'v8.0'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-  FB.getLoginStatus(function(response) {
-    statusChangeCallback(response);
-});
+    <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '806181923549710',
+        xfbml      : true,
+        version    : 'v8.0'
+      });
+      FB.AppEvents.logPageView();
+    };
   
-
-</script>
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
 
     <div class="container-fluid">
         <div class="row">
@@ -160,9 +152,8 @@
 
 </div><br><br><br>
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0&appId=375953700121182&autoLogAppEvents=1" nonce="ahbQgSXS"></script>
-<div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
-<!-- /.container -->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0&appId=375953700121182&autoLogAppEvents=1" nonce="vQqGUkoL"></script>
+<div class="fb-share-button" data-href="https://pedro-gds.github.io/WebTecno/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpedro-gds.github.io%2FWebTecno%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
